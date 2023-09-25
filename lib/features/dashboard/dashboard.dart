@@ -7,7 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 class DashBoardScreen extends StatelessWidget {
   DashBoardScreen({super.key});
 
-  Uri url = Uri.parse('https://google.com');
+  final Uri url = Uri.parse('https://google.com');
 
   @override
   Widget build(BuildContext context) {
