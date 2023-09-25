@@ -14,7 +14,6 @@ class DashBoardScreen extends StatelessWidget {
     return Scaffold(
       appBar: const CommonAppBar(
         appBarTitle: "DashBoard",
-        
       ),
       body: GridView.count(crossAxisCount: 2, children: [
         InkWell(
@@ -47,9 +46,9 @@ class DashBoardScreen extends StatelessWidget {
               child: Column(
                 children: [
                   Image(
-                      image: const AssetImage("assets/images/corgi.png"),
+                      image: const AssetImage("assets/images/maths.png"),
                       height: MediaQuery.of(context).size.height * .18),
-                  const Text("Google",
+                  const Text("MathQ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w400)),
                 ],
